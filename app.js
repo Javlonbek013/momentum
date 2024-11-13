@@ -1,14 +1,14 @@
 import { weather } from "./scripts/weather.js";
-
 import { greeting } from "./scripts/greeting.js";
-
 import { input } from "./scripts/input.js";
 import{ time } from "./scripts/time.js";
 import { slideBg } from "./scripts/slider.js";
 import { manoli } from "./scripts/manoli.js";
+import { player } from './scripts/player.js';
 weather();
 input();
 greeting();
 slideBg();
 setInterval(time, 1000);
 manoli();
+player();

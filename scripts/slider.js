@@ -33,6 +33,8 @@ export function slideBg() {
     function changeBG(url) {
         body.style.background = `url(${url})`;
     }
+  
+
     function addZero(number) {
         if (number <= 9 && number >= 0) {
             return '0' + number;
@@ -45,4 +47,5 @@ export function slideBg() {
         return `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${day}/${number}.jpg`
 
     };
+
 }
